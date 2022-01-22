@@ -1,10 +1,10 @@
-##########Partie 1 ###############
+##########Partie 1: How To Build a Node.js Application with Docker ###############
 
 -Docker est une plate-forme ouverte pour le développement, la livraison et l'exécution d'applications. Docker vous permet de séparer vos applications de votre infrastructure afin que vous puissiez fournir des logiciels rapidement. Avec Docker, vous pouvez gérer votre infrastructure de la même manière que vous gérez vos applications. En tirant parti des méthodologies de Docker pour expédier, tester et déployer du code rapidement, vous pouvez réduire considérablement le délai entre l'écriture du code et son exécution en production.
 -Dans la premiére partie, Nous allons créer une image d'application pour un site Web statique qui utilise le framework Express et Bootstrap. Ensuite on va créer un conteneur en utilisant cette image et poussez-le vers Docker Hub pour une utilisation future. 
 Enfin, nous allons extraire l'image stockée de notre Docker Hub et créez un autre conteneur.
 
-##########Partie 2###############
+##########Partie 2 :Containerizing a Node.js Application for Development With Docker Compose ###############
 
 -Dans la deuxiéme partie,on va créer deux conteneurs:
 - un pour le nœud application et une autre pour la base de données MongoDB — avec Docker Compose. Parce que cette application fonctionne avec Node et MongoDB, notre configuration effectuera les opérations suivantes :
@@ -13,7 +13,7 @@ Enfin, nous allons extraire l'image stockée de notre Docker Hub et créez un au
 • Créez une base de données protégée par un utilisateur et un mot de passe pour les données de l'application.
 • Conservez ces données 😊.
 
-##########Partie 3###############
+##########Partie 3:How To Migrate a Docker Compose Workflow to Kubernetes ###############
 
 Lors de la création d'applications modernes et sans état, la conteneurisation de votre application composante est la première étape du déploiement et de la mise à l'échelle sur des plates-formes distribuées. Si vous avez utilisé Docker Compose en développement, vous aurez modernisé et conteneurisé votre application en :
 • Extraire les informations de configuration nécessaires de votre code.
