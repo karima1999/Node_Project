@@ -24,6 +24,7 @@ Lors de la création d'applications modernes et sans état, la conteneurisation 
 
 -Dans cette partie, on va traduire les services Compose en objets Kubernetes à l'aide de composé. on utilisera les définitions d'objet fournies par kompose comme point de départ et faites des ajustements pour on assurer que notre configuration utilisera les secrets, les services, et PersistentVolumeClaims de la manière attendue par Kubernetes. A la fin de la
 tutoriel, nous aurons une application Node.js mono-instance avec une base de données MongoDB exécuté sur un cluster Kubernetes.
+
 voici mon docker hub: https://hub.docker.com/u/karima123 
 ![image](https://user-images.githubusercontent.com/78323027/150656516-17e81f53-0441-436f-82ed-ab9a6e027c59.png)
 ![image](https://user-images.githubusercontent.com/78323027/150656524-3d6fc192-29d7-48c5-8034-16ce65ade5f0.png)
